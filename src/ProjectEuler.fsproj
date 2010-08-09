@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c80a35a6-f658-4f4f-896a-3fd77a3ad4fe}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ProjectEuler</RootNamespace>
+    <AssemblyName>ProjectEuler</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Name>ProjectEuler</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <Tailcalls>false</Tailcalls>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <Tailcalls>true</Tailcalls>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Win32.Kernel32.fs" />
+    <Compile Include="Display.fs" />
+    <Compile Include="Problem.0001.fs" />
+    <Compile Include="Problem.0002.fs" />
+    <Compile Include="Problem.0003.fs" />
+    <Compile Include="Problem.0004.fs" />
+    <Compile Include="Problem.0005.fs" />
+    <Compile Include="Problem.0006.fs" />
+    <Compile Include="Problem.0007.fs" />
+    <Compile Include="Problem.0008.fs" />
+    <Compile Include="Problem.0009.fs" />
+    <Compile Include="Problem.0010.fs" />
+    <Compile Include="Problem.0011.fs" />
+    <Compile Include="Problem.0012.fs" />
+    <Compile Include="Problem.0013.fs" />
+    <Compile Include="Problem.0014.fs" />
+    <Compile Include="Problem.0015.fs" />
+    <Compile Include="Problem.0016.fs" />
+    <Compile Include="Problem.0017.fs" />
+    <Compile Include="Problem.0018.fs" />
+    <Compile Include="Problem.0019.fs" />
+    <Compile Include="Problem.0020.fs" />
+    <Compile Include="Problem.0021.fs" />
+    <Compile Include="Problem.0022.fs" />
+    <Compile Include="Problem.0023.fs" />
+    <Compile Include="Problem.0024.fs" />
+    <Compile Include="Problem.0025.fs" />
+    <Compile Include="Problem.0026.fs" />
+    <Compile Include="Problem.0027.fs" />
+    <Compile Include="Problem.0028.fs" />
+    <Compile Include="Problem.0029.fs" />
+    <Compile Include="Problem.0030.fs" />
+    <Compile Include="Problem.0031.fs" />
+    <Compile Include="Problem.0032.fs" />
+    <Compile Include="Problem.0033.fs" />
+    <Compile Include="Problem.0034.fs" />
+    <Compile Include="Problem.0035.fs" />
+    <Compile Include="Problem.0036.fs" />
+    <Compile Include="Problem.0037.fs" />
+    <Compile Include="Problem.0038.fs" />
+    <Compile Include="Problem.0039.fs" />
+    <Compile Include="Problem.0040.fs" />
+    <Compile Include="Problem.0041.fs" />
+    <Compile Include="Problem.0042.fs" />
+    <Compile Include="Problem.0043.fs" />
+    <Compile Include="Problem.0044.fs" />
+    <Compile Include="Problem.0045.fs" />
+    <Compile Include="Problem.0046.fs" />
+    <Compile Include="Problem.0047.fs" />
+    <Compile Include="Problem.0048.fs" />
+    <Compile Include="Problem.0049.fs" />
+    <Compile Include="Problem.0050.fs" />
+    <Compile Include="Problem.0051.fs" />
+    <Compile Include="Problem.0052.fs" />
+    <Compile Include="Problem.0053.fs" />
+    <Compile Include="Problem.0054.fs" />
+    <Compile Include="Problem.0055.fs" />
+    <Compile Include="Problem.0056.fs" />
+    <Compile Include="Problem.0057.fs" />
+    <Compile Include="Problem.0058.fs" />
+    <Compile Include="Problem.0059.fs" />
+    <Compile Include="Problem.0060.fs" />
+    <Compile Include="Problem.0061.fs" />
+    <Compile Include="Problem.0062.fs" />
+    <Compile Include="Problem.0063.fs" />
+    <Compile Include="Problem.0064.fs" />
+    <Compile Include="Problem.0065.fs" />
+    <Compile Include="Problem.0066.fs" />
+    <Compile Include="Problem.0067.fs" />
+    <Compile Include="Problem.0068.fs" />
+    <Compile Include="Problem.0069.fs" />
+    <Compile Include="Problem.0070.fs" />
+    <Compile Include="Problem.0071.fs" />
+    <Compile Include="Problem.0072.fs" />
+    <Compile Include="Problem.0073.fs" />
+    <Compile Include="Problem.0074.fs" />
+    <Compile Include="Problem.0075.fs" />
+    <Compile Include="Problem.0076.fs" />
+    <Compile Include="Problem.0077.fs" />
+    <Compile Include="Problem.0078.fs" />
+    <Compile Include="Problem.0079.fs" />
+    <Compile Include="Problem.0080.fs" />
+    <Compile Include="Problem.0081.fs" />
+    <Compile Include="Problem.0082.fs" />
+    <Content Include="Problem.0008.txt" />
+    <Content Include="Problem.0011.html" />
+    <Content Include="Problem.0013.txt" />
+    <Content Include="Problem.0015.gif" />
+    <Content Include="Problem.0022.txt" />
+    <Content Include="Problem.0028.html" />
+    <Content Include="Problem.0042.txt" />
+    <Content Include="Problem.0054.txt" />
+    <Content Include="Problem.0058.html" />
+    <Content Include="Problem.0059.txt" />
+    <Content Include="Problem.0067.html" />
+    <Content Include="Problem.0067.txt" />
+    <Content Include="Problem.0068a.gif" />
+    <Content Include="Problem.0068b.gif" />
+    <Content Include="Problem.0079.txt" />
+    <Content Include="Problem.0081.html" />
+    <Content Include="Problem.0081.txt" />
+    <Content Include="Problem.0082.html" />
+    <Content Include="Problem.0082.txt" />
+    <Compile Include="Problem.Template.fs" />
+    <Compile Include="Startup.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FSharp.PowerPack, Version=1.9.6.16, Culture=neutral, PublicKeyToken=a19089b1c74d0809">
+      <Name>FSharp.PowerPack</Name>
+      <AssemblyName>FSharp.PowerPack.dll</AssemblyName>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="FSharp.Core" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>System.Drawing</Name>
+      <AssemblyName>System.Drawing.dll</AssemblyName>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\FSharp\1.0\Microsoft.FSharp.Targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	     Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

@@ -1,0 +1,10 @@
+D:\Dev\Personal\Windows\ProjectEuler\bin\Debug\ProjectEuler.exe
+D:\Dev\Personal\Windows\ProjectEuler\bin\Debug\ProjectEuler.pdb
+D:\Dev\Personal\Windows\ProjectEuler\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Personal\Windows\ProjectEuler\obj\Debug\ProjectEuler.exe
+D:\Dev\Personal\Windows\ProjectEuler\obj\Debug\ProjectEuler.pdb
+D:\Dev\Personal\Applications\ProjectEuler\bin\Debug\ProjectEuler.exe
+D:\Dev\Personal\Applications\ProjectEuler\bin\Debug\ProjectEuler.pdb
+D:\Dev\Personal\Applications\ProjectEuler\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Personal\Applications\ProjectEuler\obj\Debug\ProjectEuler.exe
+D:\Dev\Personal\Applications\ProjectEuler\obj\Debug\ProjectEuler.pdb
